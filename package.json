@@ -1,0 +1,23 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "Node cli",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "node"
+  ],
+  "bin": {
+    "auto_dev": "./bin/index"
+  },
+  "author": "Akinola Makinde",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "yargs": "^17.0.1"
+  }
+}
