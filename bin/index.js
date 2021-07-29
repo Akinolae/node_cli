@@ -2,8 +2,6 @@ const chalk = require('chalk')
 const boxen = require('boxen')
 const yargs = require('yargs')
 
-const greeting = chalk.white.bold('hello')
-
 const options = yargs
   .usage(chalk.green.bold('Usage: -n <name>'))
   .option('n', {
