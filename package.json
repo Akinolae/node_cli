@@ -12,7 +12,7 @@
     "node"
   ],
   "bin": {
-    "auto_dev": "./bin/index"
+    "auto_dev": "/bin/index.js"
   },
   "author": "Akinola Makinde",
   "license": "ISC",
